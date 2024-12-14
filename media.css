@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    #Home{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .image{
+        order: 1;
+        height: 250px;
+        width: 250px;
+        border-radius: 150px;
+        margin-bottom: 0;
+    }
+    .detail{
+        order: 0;
+    }
+    .name,.about-heading{
+        font-size: 50px;
+    }
+    .sollu,.patta{
+        height: 300px;
+        width: 300px;
+
+    }
+    .social-media{
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width:480px){
+    #Skills{
+        height: 150vh;
+    }
+
+}
